@@ -48,7 +48,7 @@ Install and run Netdata to visualize system and application performance metrics 
 
   open: http:/server-ip/:19999
   
-  What this demo monitors
+  ### What this demo monitors
   
   - CPU, memory, disk IO, load
 
@@ -65,7 +65,7 @@ Install and run Netdata to visualize system and application performance metrics 
   
   firewall-cmd --reload
   
-  If SELinux is enabled and causes permission errors, add :Z to your host volume mounts.
+  If SELinux is enabled and causes permission errors, add :Z to host volume mounts.
 
   docker-compose (alternative)
   
@@ -103,7 +103,7 @@ Install and run Netdata to visualize system and application performance metrics 
 
   Navigate to Overview and Docker/containers charts.
 
-  Take a screenshot with your OS tool and save to screenshots/
+  Take a screenshot and save to screenshots/
 
 ## Troubleshooting
 
